@@ -2,9 +2,11 @@ const container = document.getElementById("container");
 
 const tempHold = document.createDocumentFragment();
 
-const numberOfDivs = 256;
+const sideLength = 16;
 
-for (let i = 0; i < 256; i++) {
+numCells = sideLength * sideLength;
+
+for (let i = 0; i < numCells; i++) {
     const cell = document.createElement("div");
     cell.classList.add("grid-item");
     tempHold.appendChild(cell);
