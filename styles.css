@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    border: 1 px solid black;
+}
