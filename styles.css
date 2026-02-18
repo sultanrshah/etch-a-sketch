@@ -8,7 +8,5 @@
 
 .grid-item {
     box-sizing: border-box;
-    width: calc(100% / 16);
-    height: calc(100% / 16);
     border: 1 px solid black;
 }
